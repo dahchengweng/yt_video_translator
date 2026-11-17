@@ -1,0 +1,19 @@
+# 排除 Python 虛擬環境與快取
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 排除影音檔案與生成的字幕檔（避免檔案過大被 Git 阻擋）
+*.mp4
+*.wav
+*.mp3
+*.srt
+
+# 排除模型權重檔
+*.pt
+*.bin
+
+# 排除個人隱私與憑證檔案
+cookies.txt
+.env
